@@ -1,18 +1,42 @@
+body {
+  background-color: lightblue;
+}
+
 .contact {
   text-align: right;
   padding: 3em;
+  color: white;
 }
 
 .contact span {
   margin-left: 1em;
+  color: white;
+}
+
+#logo {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #logo > img {
   width:240px;
-  margin-right: 500px;
-  margin-left: 500px;
 }
 
-body {
-  background-color: lightblue;
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url("https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGBtvTbjs3T7OK9b50AXe70D3rGVtsTkPsbDajuO5ueQw.woff2")
+  format("woff2");
+}
+
+#slogan > h1 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 55px;
+  color: white;
+  font-family: "Source Sans Pro";
+  font-weight: 200;
 }
