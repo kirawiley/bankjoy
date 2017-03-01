@@ -6,3 +6,13 @@
 .contact span {
   margin-left: 1em;
 }
+
+#logo > img {
+  width:240px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+body {
+  background-color: lightblue;
+}
