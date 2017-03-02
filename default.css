@@ -67,3 +67,45 @@ body {
   font-family: "Source Sans Pro";
   font-weight: 400;
 }
+
+#button {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  border: solid 2px #5170dd;
+  border-radius: 80px;
+  background-color: #5170dd;
+  width: 200px;
+}
+
+
+.phone {
+  position: relative;
+  width: 80%;
+  margin-top: 50px;
+}
+
+#left.phone {
+  position: relative;
+  width: 15%;
+  right: -44%;
+}
+
+#center.phone {
+  position: relative;
+  width: 16%;
+  z-index: 2;
+  right: -39%
+}
+
+#right.phone {
+  position: relative;
+  width: 15%;
+  left: 34%;
+}
