@@ -1,14 +1,31 @@
 body {
-  background-color: lightblue;
+  background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-attachment: fixed;
+}
+
+.color-overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(55, 66, 103, 0.80);
 }
 
 .contact {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-size: 20px;
   text-align: right;
   padding: 3em;
   color: white;
 }
 
 .contact span {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-size: 20px;
   margin-left: 1em;
   color: white;
 }
@@ -35,8 +52,18 @@ body {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  font-size: 55px;
+  font-size: 60px;
   color: white;
   font-family: "Source Sans Pro";
-  font-weight: 200;
+  font-weight: 100;
+}
+
+#offer {
+  text-align: center;
+  margin-right: 190px;
+  margin-left: 190px;
+  color: #a6abb2;
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
