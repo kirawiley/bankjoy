@@ -1,15 +1,18 @@
 body {
   background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 .color-overlay {
   z-index: -1;
-  height: 100%;
+  height: 120%;
   width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
+  margin: 0;
   background-color: rgba(55, 66, 103, 0.80);
 }
 
@@ -30,6 +33,11 @@ body {
   color: white;
 }
 
+.contact span:hover {
+  color: darkblue;
+  transition-duration: 0.5s;
+}
+
 #logo {
   text-align: center;
   margin-right: auto;
@@ -37,7 +45,7 @@ body {
 }
 
 #logo > img {
-  width:240px;
+  width: 240px;
 }
 
 @font-face {
@@ -62,6 +70,7 @@ body {
   text-align: center;
   margin-right: 190px;
   margin-left: 190px;
+  margin-bottom: 60px;
   color: #a6abb2;
   font-size: 15px;
   font-family: "Source Sans Pro";
@@ -89,6 +98,7 @@ body {
   position: relative;
   width: 80%;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 #left.phone {
@@ -108,4 +118,80 @@ body {
   position: relative;
   width: 15%;
   left: 34%;
+}
+
+.section2 {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 100px;
+  margin-bottom: -10%;
+  margin-top: 10%;
+}
+
+.container {
+  display: inline-block;
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 5%;
+  margin-bottom: 5%
+}
+
+#title {
+  font-family: "Source Sans Pro";
+  font-weight: 100;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 60%;
+  color: #52575b;
+}
+
+
+#paragraph1 {
+  width: 30%;
+  text-align: left;
+  margin-left: 20%;
+  font-family: "Source Sans Pro";
+  font-weight: 100;
+  font-size: 20px;
+  color: #52575b;
+}
+
+#left2.phone2 {
+  position: relative;
+  width: 13%;
+  left: 55%;
+  top: -335px;
+  z-index: 2;
+}
+
+#right2.phone2 {
+  position: relative;
+  width: 11.5%;
+  left: 51%;
+  top: -350px;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  background-color: #efefef;
+  margin: 0;
+  padding: 100px;
+}
+
+.container2 {
+  margin-top: 8%;
+}
+
+#title2 {
+  font-family: "Source Sans Pro";
+  font-weight: 100;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 50%;
+  margin-right: 20%;
+  color: #52575b;
 }
